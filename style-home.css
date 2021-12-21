@@ -1,0 +1,139 @@
+                                        html,
+                                        body {
+                                            width: 100%;
+                                            height: 100%;
+                                            background-color: rgb(48, 48, 5);
+                                        }
+                                        
+                                        .caixa {
+                                            width: 100%;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: nowrap;
+                                            justify-content: center;
+                                            margin: left 10px;
+                                        }
+                                        
+                                        .obj1 {
+                                            font: bold;
+                                            font-size: 40px;
+                                            color: rgb(235, 235, 3);
+                                            background: gray;
+                                            padding: 10px;
+                                            flex-grow: 8;
+                                            text-decoration: none;
+                                            text-transform: capitalize;
+                                        }
+                                        
+                                        .obj1:hover {
+                                            font-size: 45px;
+                                            color: white;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            color: black;
+                                        }
+                                        
+                                        .obj2 {
+                                            font-weight: bold;
+                                            background: yellow;
+                                            font-size: 40px;
+                                            padding: 10px;
+                                            flex-grow: 1;
+                                            text-transform: capitalize;
+                                            text-align: right;
+                                            text-align: center;
+                                        }
+                                        
+                                        span a:hover {
+                                            color: rgb(82, 4, 4);
+                                            text-decoration: underline;
+                                            font-size: 42px;
+                                        }
+                                        
+                                        img {
+                                            max-width: 200px;
+                                            max-height: 200px;
+                                            min-width: 200px;
+                                            border-radius: 50px;
+                                        }
+                                        
+                                        .imagens {
+                                            width: 100%;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                            object-fit: cover;
+                                            gap: 10px;
+                                        }
+                                        
+                                        img:hover {
+                                            max-width: 220px;
+                                            max-height: 220px;
+                                            min-width: 220px;
+                                            padding: 10px;
+                                            border: rgb(202, 200, 58) solid 15px;
+                                        }
+                                        
+                                        .imagens1 {
+                                            width: 100%;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                            gap: 10px;
+                                        }
+                                        
+                                        .imagens2 {
+                                            width: 100%;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                            gap: 10px;
+                                        }
+                                        
+                                        .imagens3 {
+                                            width: 100%;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                            gap: 10px;
+                                        }
+                                        
+                                        @media (max-width: 400px) {
+                                            .caixa {
+                                                width: auto;
+                                                padding: 10px;
+                                            }
+                                            .obj1 {
+                                                font-size: 15px;
+                                                background: gray;
+                                                padding: 10px;
+                                            }
+                                            .obj2 {
+                                                font-size: 15px;
+                                                background: gray;
+                                                padding: 10px;
+                                            }
+                                            .imagens,
+                                            .imagens1,
+                                            .imagens2,
+                                            .imagens3 {
+                                                width: 100%;
+                                                height: auto;
+                                                display: flex;
+                                                flex-direction: column;
+                                                gap: 10px;
+                                            }
+                                            img {
+                                                max-width: 150px;
+                                                max-height: 150px;
+                                                min-width: 150px;
+                                                border-radius: 10px;
+                                                justify-content: center;
+                                            }
+                                        }
