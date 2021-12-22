@@ -53,9 +53,9 @@
                                         }
                                         
                                         img {
-                                            max-width: 200px;
-                                            max-height: 200px;
-                                            min-width: 200px;
+                                            max-width: 320px;
+                                            max-height: 320px;
+                                            min-width: 320px;
                                             border-radius: 50px;
                                         }
                                         
@@ -70,9 +70,9 @@
                                         }
                                         
                                         img:hover {
-                                            max-width: 220px;
-                                            max-height: 220px;
-                                            min-width: 220px;
+                                            max-width: 325px;
+                                            max-height: 325px;
+                                            min-width: 325px;
                                             padding: 10px;
                                             border: rgb(202, 200, 58) solid 5px;
                                         }
@@ -92,7 +92,7 @@
                                             display: flex;
                                             flex-wrap: wrap;
                                             justify-content: center;
-                                            gap: 10px;
+                                            gap: 5px;
                                         }
                                         
                                         .imagens3 {
@@ -108,13 +108,22 @@
                                             .caixa {
                                                 width: auto;
                                                 padding: 10px;
+                                                justify-content: center;
                                             }
                                             .obj1 {
+                                                color: yellow;
                                                 font-size: 15px;
                                                 background: gray;
                                                 padding: 10px;
                                             }
+                                            a,
+                                            span.obj2 {
+                                                color: black;
+                                                background-color: yellow;
+                                            }
                                             .obj2 {
+                                                color: black;
+                                                background-color: yellow;
                                                 font-size: 15px;
                                                 background: gray;
                                                 padding: 10px;
@@ -126,15 +135,14 @@
                                                 width: 100%;
                                                 height: auto;
                                                 display: flex;
-                                                flex-direction: column;
+                                                justify-content: center;
                                                 gap: 10px;
                                             }
                                             img {
-                                                max-width: 150px;
-                                                max-height: 150px;
-                                                min-width: 150px;
+                                                max-width: 200px;
+                                                max-height: 200px;
+                                                min-width: 200px;
                                                 border-radius: 10px;
                                                 justify-content: center;
                                             }
-                                        
                                         }
